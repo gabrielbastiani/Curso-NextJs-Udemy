@@ -8,9 +8,19 @@ export default function Home() {
     <Head>
         <title>Board - Organizando suas tarefas.</title>
     </Head>
-    <div>
-      <h1 className={styles.title}>Primeiro projeto com NextJS</h1>
-    </div>
+      <main className={styles.contentContainer}>
+        <img src="/images/board-user.svg" alt="ferramenta board" />
+
+        <section className={styles.callToAction}>
+          <h1>Uma ferramenta para o seu dia a dia Escreva, planeje e organize-se...</h1>
+          <p>
+            <span>100% Gratuita</span> e online.
+          </p>
+        </section>
+        <div className={styles.donaters}>
+          <img src="https://allmylinks.com/upload/User/photo/i/l/N/PGJ_3WbZTFj1N9eViTTII1Pt_jOSxICF.jpg" alt="usuario 1" />
+        </div>
+      </main>
     </>
   )
 }
